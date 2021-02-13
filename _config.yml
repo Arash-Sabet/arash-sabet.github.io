@@ -19,8 +19,7 @@ title: Arash @ Sabet                          # the main title
 
 tagline: Arash Sabet's blog on technology, business, application architecture, cloud, .net, nature, etc.   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-A veteran of the software industry and highly experienced in providing robust and cutting-edge cloud technology solutions.
+description: A veteran of the software industry and highly experienced in providing robust and cutting-edge cloud technology solutions.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://arash-sabet.github.io'
