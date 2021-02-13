@@ -40,10 +40,8 @@ social:
   email: arash@sabet.dev             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/ArashSabet      # change to your twitter homepage
-    - https://github.com/Arash-Sabet       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://twitter.com/ArashSabet
+    - https://github.com/Arash-Sabet       
     - https://www.linkedin.com/in/arashsabet
 
 google_site_verification: google_meta_tag_verification # change to your verification string
