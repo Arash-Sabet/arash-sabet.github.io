@@ -28,6 +28,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://arash-sabet.github.io'
 
 author: Arash Sabet                  # change to your full name
+copyright: Arash Sabet
 
 github:
   username: Arash-Sabet             # change to your github username
@@ -68,7 +69,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:    # [light|dark]
+theme_mode: light    # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
