@@ -42,7 +42,6 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/ArashSabet
     - https://github.com/Arash-Sabet       
-    - https://www.linkedin.com/in/arashsabet
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
@@ -69,7 +68,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light   # [light|dark]
+theme_mode:    # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
