@@ -4,8 +4,6 @@ icon: fas fa-info
 order: 4
 ---
 
-# About
-
 A veteran of the software industry and highly experienced in providing robust and cutting-edge technology solutions. My extensive experiences in product conception, design and implementation have led to many successful cloud-based, highly-efficient, and scalable enterprise solutions.
 
 I am an entrepreneur with a strong vision for the unlimited potential of cutting-edge technologies and keen on finding creative solutions for the problems of today’s constantly changing business landscape. As the co-founder of my startup company, Proximitia Inc., I designed, implemented and rolled out an enterprise platform to create an infrastructure of Bluetooth access points to help marketers launch and manage proximity marketing campaigns by targeting mobile devices. 
