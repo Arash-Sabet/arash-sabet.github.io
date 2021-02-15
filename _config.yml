@@ -15,9 +15,9 @@ timezone: America/Toronto
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Arash @ sabet . dev                          # the main title
+title: Arash Sabet                          # the main title
 
-tagline: Arash Sabet's blog on technology, business, application architecture, cloud, .net, nature, etc.   # it will display as the sub-title
+tagline: Arash Sabet's blog on technology, business, application architecture, cloud, .net, etc.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
    A veteran of the software industry
