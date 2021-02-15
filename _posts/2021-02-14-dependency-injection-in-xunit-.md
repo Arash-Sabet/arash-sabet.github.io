@@ -3,6 +3,8 @@ layout: post
 title:  "Dependency Injection in xUnit test framework"
 description: Using Microsoft dependency injection in test projects powered by xUnit
 tags: dependency-injection xunit
+categories: xunit
+mermaid: true
 ---
 
 There are certainly cases when developers want to run integration tests against their code that are wired up heavily by dependency injection. [xUnit](https://xunit.net) is a mature, loved-by-developers, and robust test framework for testing .net code. A slight downside of xUnit is that it lacks an out-of-the-box solution to inject dependencies. Fortunately, xUnit has been equipped with "Fixture" feature which is meant to share contexts among test classes. So, this feature can be leveraged to retain dependency injection containers among test classes in an xUnit-powered test project.
