@@ -3,7 +3,7 @@ layout: post
 title:  "Dependency Injection in xUnit test framework"
 description: Using Microsoft dependency injection in test projects powered by xUnit
 tags: dependency-injection xunit
-categories: xunit
+categories: Testing, Xunit
 mermaid: true
 ---
 
