@@ -17,7 +17,7 @@ Now, let's take a look at an example application that consists of the following 
 * A secured Web API that provides some inputs to the daemon application
 * A secured HTTP-triggered Azure Function App that receives data from the daemon application to process them
 
-The daemon app acquires a token from the **Microsoft Identity Platform** as an application without user interaction, invokes the Web API to obtain the necessary inputs to produce data and submits the produced data to the HTTP-triggered function for further processing. The Web API and the HTTP-triggered function need to ensure that the incoming calls are legit and from the designated daemon app. That has to take place by examining the token present in the web requests' headers.
+The daemon app acquires a token from the [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-overview) as an application without user interaction, invokes the Web API to obtain the necessary inputs to produce data and submits the produced data to the HTTP-triggered function for further processing. The Web API and the HTTP-triggered function need to ensure that the incoming calls are legit and from the designated daemon app. That has to take place by examining the token present in the web requests' headers.
 
 I am not trying to walk you through the setup steps or share a project in this post because such details can already be found in the public domain, for e.g. in [this GitHub repo](https://github.com/Azure-Samples/active-directory-dotnetcore-daemon-v2). The repo covers the setup steps of an Azure AD tenant, configuring a daemon application (a console app) and a Web API where the tokens are verified.
 
