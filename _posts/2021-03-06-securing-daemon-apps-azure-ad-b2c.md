@@ -7,7 +7,7 @@ tag: azure ad b2c
 categories: Security, Azure AD B2C
 mermaid: true
 ---
-If you have stumbled upon this post, you have been likely exploring a solid way to secure your backend long-running processes to access a secured resource like a web API or an Azure Function. These applications can authenticate by the application's identity (not a user's delegated identity) and by the OAuth 2.0 client credential flow. 
+If you have stumbled upon this post, you have been likely exploring a solid way to secure your backend long-running processes to access a secured resource like a web API or an Azure Function. These applications can authenticate the application's identity (not a user's delegated identity) and by the OAuth 2.0 client credential flow.
 
 ## An example application
 
@@ -19,7 +19,7 @@ Now, let's take a look at an example application that consists of the following 
 
 The daemon app acquires a token from the [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-overview) as an application without user interaction, invokes the Web API to obtain the necessary inputs to produce data and submits the produced data to the HTTP-triggered function for further processing. The Web API and the HTTP-triggered function need to ensure that the incoming calls are legit and from the designated daemon app. That has to take place by examining the token present in the web requests' headers.
 
-I am not trying to walk you through the setup steps or share a project in this post because such details can already be found in the public domain, for e.g. in [this GitHub repo](https://github.com/Azure-Samples/active-directory-dotnetcore-daemon-v2). The repo covers the setup steps of an Azure AD tenant, configuring a daemon application (a console app) and a Web API where the tokens are verified.
+I am not trying to walk you through the setup steps or share a project in this post because such details are already in the public domain, e.g. in [this GitHub repo](https://github.com/Azure-Samples/active-directory-dotnetcore-daemon-v2). The repo covers an Azure AD tenant's setup steps, configuring a daemon application (a console app) and a Web API where the tokens are verified.
 
 ### Validating JWT tokens in Azure HTTP-triggered functions
 
@@ -39,7 +39,7 @@ The following code snippet illustrates how a JWT token is validated. There are t
 
 1- We need to ensure that the token's audience is the right one. Please see `ValidAudience` entry in the following code to realize how it's structured.
 
-2- The issuer's entry conforms the pattern shown in the example i.e. `ValidIssuer`.
+2- The issuer's entry conforms to the pattern shown in the example, i.e. `ValidIssuer`.
 
 ```csharp
  if (authHeader != null && 
